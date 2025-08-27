@@ -1,0 +1,108 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "Insect-Plant.csv",
+    "dcterms:bibliographicCitation" : "Rubinigg M. 2023 Data on economic dependence of pollination by animals in crops as well as observations of pollinators on plant species, inon economic dependence of pollination by animals in crops as well as observations of pollinators on plant species, in particular crops. EU Pollinator Hub. [2025-08-28] app.pollinatorhub.eu",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "pms:recordID",
+        "titles" : "pms:recordID",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "dwc:scientificName",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonId",
+        "titles" : "dwc:resourceID",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "dwc:scientificName",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonId",
+        "titles" : "dwc:relatedResourceID",
+        "datatype" : "string"
+      }, {
+        "name" : "dwc:verbatimIdentification",
+        "titles" : "dwc:verbatimIdentification",
+        "datatype" : "string"
+      }, {
+        "name" : "localityId",
+        "titles" : "dwc:countryCode",
+        "datatype" : "string"
+      }, {
+        "name" : "eurostat:nuts2021Code",
+        "titles" : "eurostat:nuts2021Code",
+        "datatype" : "string"
+      }, {
+        "name" : "eurostat:postcode",
+        "titles" : "eurostat:postcode",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "dwc:locality",
+        "datatype" : "string"
+      }, {
+        "name" : "eurostat:lauCode",
+        "titles" : "eurostat:lauCode",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLatitude",
+        "titles" : "dwc:decimalLatitude",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLongitude",
+        "titles" : "dwc:decimalLongitude",
+        "datatype" : "string"
+      }, {
+        "name" : "pms:heightAboveMeanSeaLevel",
+        "titles" : "pms:heightAboveMeanSeaLevel",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
+        "titles" : "dwc:eventDate",
+        "datatype" : "string"
+      }, {
+        "name" : "dwc:eventDate",
+        "titles" : "dwc:eventDate",
+        "datatype" : "string"
+      }, {
+        "name" : "dwc:eventDate",
+        "titles" : "dwc:eventDate",
+        "datatype" : "string"
+      }, {
+        "name" : "dwc:eventDate",
+        "titles" : "dwc:eventDate",
+        "datatype" : "string"
+      }, {
+        "name" : "imageId",
+        "titles" : "imageId",
+        "datatype" : "string"
+      }, {
+        "name" : "dwc:verbatimIdentification",
+        "titles" : "dwc:verbatimIdentification",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "dcterms:bibliographicCitation",
+        "datatype" : "string"
+      }, {
+        "name" : "interactionTypeId",
+        "titles" : "dwc:relationshipOfResourceID",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
