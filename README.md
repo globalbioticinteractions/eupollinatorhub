@@ -96,6 +96,7 @@ The bibliographic citations were extracted into biblio.bib via:
 ```
 cat Insect-Plant.csv\
  | mlr --icsv --otsvlite cut -f dcterms:bibliographicCitation\
+ | tail -n+2\
  | sort\
  | uniq\
  | sed 's/^article/@article/g'\
