@@ -103,14 +103,5 @@ cat Insect-Plant.csv\
  > biblio.bib
 ```
 
-An alternate way to get the data (up to 1000 rows) by using endpoint (or path) 
-
-```
-https://app.pollinatorhub.eu/api/v1/discovery/data/PLLNT11.NSCTP75.0
-```
-
-where ```PLLNT11.NSCTP75.0``` is the uid of the data part 75 of dataset 11. 
-
-
-See https://github.com/globalbioticinteractions/globalbioticinteractions/issues/991#issuecomment-3228566047 . 
+Note that biblio.bib is currently not included because of suspected malformed and conflicting bibtex entries. See https://github.com/globalbioticinteractions/eupollinatorhub/issues/4 https://github.com/globalbioticinteractions/eupollinatorhub/issues/3 https://github.com/globalbioticinteractions/eupollinatorhub/issues/1 .
 
