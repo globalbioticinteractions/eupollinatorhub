@@ -91,6 +91,16 @@ preston cat\
  > Insect_Plant.csv
 ```
 
+The bibliographic citations were extracted into biblio.bib via:
+
+```
+cat Insect-Plant.csv\
+ | mlr --icsv --otsvlite cut -f dcterms:bibliographicCitation\
+ | sort\
+ | uniq\
+ | sed 's/^article/@article/g'\
+ > biblio.bib
+```
 
 
 See https://github.com/globalbioticinteractions/globalbioticinteractions/issues/991#issuecomment-3228566047 . 
